@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #fff
+}
+.media{ border-radius:5px;}
+.font_blue{ color:#1196ff}
+.h5{ height:5px; background:#f7f7f7; margin:0}
+.user_info_icon{ background:#fff; }
+.bg-primary {
+   
+    background-color: #1196ff;
+}
+.white-space{white-space:pre }
+.page-header{ margin:10px 0 0 0}
+.font_yel{ color:#ffd632}
+.user_info_icon div{ color:#333;margin:10px 0; display:inline-block}
+.user_info_icon span{ padding-left:0px;display:inline-block; position:relative; top:-5px; text-align:left}
+.ico_eye{ background:url(../images/ico_eye.png) no-repeat; width:40px; height:40px; display:inline-block; background-size:100%}
+.ico_user{ background:url(../images/ico_user.png) no-repeat; width:40px; height:40px; display:inline-block; background-size:100%}
+.user_info_icon div:first-child{ border-right:#eee solid 1px}
+.font_grew{ color:#999}
+.check_user div.on span{ border:#1196ff solid 1px;}
+.check_user div.on .icon_ok{ display:block}
+.pad_tb_20 .media-heading{ padding-top:5px}
+.icon_ok{ position:absolute; right:0px; top:-4px; background:url(../images/on.png) no-repeat; width:15px; height:15px; display:inline-block; display:none;background-size:100%}
+.check_user .col-xs-4,.check_user .col-xs-3{ position:relative; padding-left:5px; padding-right:5px;}
+.check_user div span{ display:inline-block; padding:4px 0; border-radius:5px; border:#999 solid 1px;}
+.check_user div { margin-bottom:10px;}
+.pad_b{ padding-bottom:10px;}
+.ico_sf1{background:url(../images/ico_sf1.png) no-repeat; margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_sf2{background:url(../images/ico_sf2.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_sf3{background:url(../images/ico_sf3.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.yanz{ position:absolute; background:#1196ff; padding:10px 10px; border-radius:5px; color:#fff; right:15px; border:none; top:1px}
+.item{ position:absolute; background:#fff; padding:5px 5px; border-radius:5px; color:#ccc; right:15px; border:none; top:1px}
+.pad_tb_20{ padding:20px 20px;}
+.ico_list{ border-bottom:#eee solid 1px; line-height:70px; position:relative}
+.ico_list i{ position:absolute;  top:-8px; }
+.ico_list b{ padding-left:55px; font-weight:normal}
+.ico_list span{ position:absolute; right:0}
+.ico_pao50{background:url(../images/ico_pao50.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_pao800{background:url(../images/ico_pao800.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_pao1000{background:url(../images/ico_pao1000.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_shengao{background:url(../images/ico_shengao.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_tizhong{background:url(../images/ico_tizhong.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_feihuoliang{background:url(../images/ico_feihuoliang.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_lidingtiaoyuan{background:url(../images/ico_lidingtiaoyuan.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_yangwoqizuo{background:url(../images/ico_yangwoqizuo.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_yintixiangshang{background:url(../images/ico_yintixiangshang.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_zwtqq{background:url(../images/ico_zwtqq.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_bmi{background:url(../images/ico_bmi.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_pao50x8{background:url(../images/ico_pao50x8.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+.ico_tiaosheng{background:url(../images/ico_tiaosheng.png) no-repeat;margin-top:20px; width:45px; height:45px; display:inline-block; background-size:100%}
+
+.nobod{ border:none; border-bottom:#ccc solid 1px;}
+.myform{ width:100%; padding:10px 0}
+.pad_tb{ padding-top:10px; padding-bottom:10px}
+.user_info_icon a{ color:#333}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+	color: #fff;
+	background-color: #428bca;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+	left: 16.66666666666%;
+}
+.table {
+	font-size: 14px
+}
+.th-inner {
+	display: inline-block
+}
+.panel {
+	border-radius: 0;
+}
+.sidebar a, .glyphicon {
+	color: #fff;
+}
+.sidebar .nav-sidebar li a:hover {
+	background: #425164
+}
+.login_left {
+	background: #020020;
+	padding: 15px 0;
+	border-bottom: #425164 solid 1px;
+	padding-left: 25px
+}
+.login_left a {
+	color: #fff
+}
+.hide_left{ position:absolute; left:200px;  width:50px; height:50px; top:0px; line-height:50px; text-align:center;background:#002451}
+.hide_left span{ font-size:18px; margin-top:15px; margin-left:5px}
+.side_right {
+}
+.nav-sidebar .glyphicon, .login_left .glyphicon {
+	margin-right: 10px
+}
+.login_left {
+	color: #FFF
+}
+.nav-sidebar .nav a {
+	font-size: 12px;
+	padding-left: 52px
+}
+.nav-sidebar .nav a.active {
+	background: #425164
+}
+.panel-heading {
+	border-top-left-radius: 0px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border-top-right-radius: 0px;
+}
+.vpadded {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.panel-line-bottom {
+	border-bottom: 1px solid #f2f4f8;
+}
+.panel-line-left {
+	border-left: 1px solid #f2f4f8;
+}
+.bod {
+	border: #eee solid 1px
+}
+.martop70 {
+	margin-top: 70px
+}
+.bg-fff {
+	background: #fff
+}
+.bs-example-bg-classes {
+	padding: 10px;
+}
+.nav-small > .active > a, .nav-small > .active > a:hover, .nav-small a:hover {
+	color: #337ab7;
+	background-color: #eee;
+}
+.jfz-tree {
+}
+.row {
+	margin: 0;
+	padding: 0
+}
+.panel-primary {
+	border: none;
+	background: #fff
+}
+.side_right {
+	border-left: #eee solid 1px;
+	height: 100%;
+	background: #fff;
+	margin: 0;
+	padding: 0
+}
+.panel-line-bottom {
+	border-bottom: 1px solid #f2f4f8;
+}
+.panel-line-bottom:after {
+	clear: both;
+}
+.modal-header .box_btn {
+	position: relative;
+	margin-right: 20px;
+	top: -4px
+}
+.main {
+	margin-left: 250px;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+	margin-left: 250px;
+	left: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.form-group .glyphicon{ color:#333}
+.martop10 {
+	margin-top: 10px
+}
+.mar_r_20{ margin-right:20px;}
+.padtop10 {
+	padding-top: 10px
+}
+.pad0 {
+	padding: 0
+}
+.form-horizontal .form-group{ margin-left:0; margin-right:0; padding-left:0; padding-right:0}
