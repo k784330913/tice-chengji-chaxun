@@ -1,0 +1,118 @@
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>{$data.name}的{$data.grade}体测成绩</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/bootmy.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="row ">
+  <div class="col-xs-3 text-center pad_tb"> <small></small><span class="font_blue">{$data.name}</span> </div>
+  <div class="col-xs-6 text-center pad_tb"> <small></small><span class="font_blue">{$data.xueid}</span> </div>
+  <div class="col-xs-3 text-center pad_tb"> <small></small><span class="font_blue">{$data.age}</span> </div>
+</div>
+<div class="h5"></div>
+<div class="col-xs-12 bg-fff pad_tb"></div>
+
+	<div class="clearfix"></div>
+	
+		<h4 id="glyphicons" class="page-header">
+			<span class="col-xs-12">
+				{$data.grade}
+				
+					&nbsp;&nbsp;&nbsp;&nbsp;<big class="font_yel">{$data.total}</big> &nbsp;&nbsp;&nbsp;&nbsp;<big class="font_yel">{$data.totalstatus}</big>
+				
+			</span>
+			<div class="clearfix"></div>
+		</h4>
+
+	<div class="clearfix"></div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_shengao"></i>
+		<b>{$data.height}</b>
+		<span> </span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_tizhong"></i>
+		<b>{$data.weight}</b>
+		<span> </span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_bmi"></i>
+		<b>{$data.bmi}</b>
+		<span>{$data.bmistatus}</span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_feihuoliang"></i>
+		<b>{$data.lung}</b>
+		<span>{$data.lungstatus}</span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_pao50"></i>
+		<b>{$data.fifty}</b>
+		<span>{$data.fiftystatus}</span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_lidingtiaoyuan"></i>
+		<b>{$data.jump}</b>
+		<span>{$data.jumpstatus}</span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_zwtqq"></i>
+		<b>{$data.bond}</b>
+		<span>{$data.bondstatus}</span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_pao1000"></i>
+		<b>{$data.run}</b>
+		<span>{$data.runstatus}</span>
+	 </div>
+	</div>
+	
+	<div class="col-xs-12 ico_lists">
+	 <div class="ico_list"><i class="ico_yintixiangshang"></i>
+		<b>{$data.extre}</b>
+		<span>{$data.extrestatus}</span>
+	 </div>
+	</div>
+
+<div class="clearfix"></div>
+<!-- <div class="container pad_tb center-block">
+  <button type="button" class="btn btn-primary btn-lg btn-block" onClick="javascript:window.location.href='userInfo!getUserInfo.action?openid='" >返回个人中心</button>
+</div> -->
+
+<script src="__PUBLIC__/js/js.js"></script> 
+<script src="__PUBLIC__/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+
+</body>
+</html>
