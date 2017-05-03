@@ -1,0 +1,59 @@
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>输入学号</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/bootmy.css" rel="stylesheet">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/ie-emulation-modes-warning.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="__PUBLIC__/js/html5shiv.min.js"></script>
+      <script src="__PUBLIC__/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<form id="userInfo" name="userInfo" action="{:U('Home/index/index')}" method="post">
+ <div class="row bg-fff  ">
+  <div class="container pad_tb">
+    <h3 style="color: red">{$msg}</h3>
+    <h4>&nbsp&nbsp&nbsp查询体测成绩</h4>
+    <br>
+    <div class="col-xs-12  form-group">
+	<input type="text" name="num" id="no" class="myform nobod" placeholder="请输入学号"/>
+    </div>
+    <div class="col-xs-12  form-group">
+  <input type="password" name="pwd" id="nop" class="myform nobod" placeholder="请输入教务系统密码"/>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container pad_tb center-block">
+    <button type="button" class="btn btn-primary btn-lg btn-block" onClick="javascript:findStudentInfo()" >开始查找</button>
+  </div>
+</div>
+</form>
+
+<script type="text/javascript">	
+function findStudentInfo(){
+
+	if($("#no").val()==""){
+		alert("请输入学号");
+	} else if($("#nop").val()==""){
+		alert("请输入教务系统密码");
+	} else {
+    document.forms[0].submit();
+  }
+}
+</script>
+<script src="js/js.js"></script> 
+<script src="js/ie10-viewport-bug-workaround.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
